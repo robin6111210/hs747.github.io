@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: black;
+    height: 80px;
+    width: 100%;
+    position: relative;
+    background-image: url(images/img2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+header ul{
+    position: absolute;
+    right: 5vw;
+    top:0;
+    line-height: 80px;
+}
+h1{
+    color: white;
+    position:absolute;
+    left: 40px;
+    top: 0;
+    line-height:80px;
+}
+header li{
+    display: inline;
+    margin-right: 4vw;
+}
+header a{
+    color:white;
+    text-decoration: none;
+}
+header a:hover{
+    text-decoration: underline;
+}
+
+.profile {
+    padding: 20px;
+    line-height: 1.6;
+    font-size: 18px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
